@@ -1,0 +1,1341 @@
+body {
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+
+.btn-rounded{
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 16px;
+    text-decoration: none;
+}
+.btn-success{
+    background-color:  #1db954!important;
+    border:1px solid #1db954;
+}
+.btn-success:hover{
+    border:1px solid #1db954;
+    opacity: .8;
+}
+.btn-search{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 48px;
+    padding: 0 40px;
+    border-radius: 5px!important;
+}
+
+.form-control{
+    background: #eee;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    padding: 0 16px;
+}
+
+.form-control:focus{
+    border: 1px solid #000;
+    box-shadow:none!important;
+    outline: none;
+    background: #eee;
+    border-radius: 8px;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    padding: 0 16px;
+}
+.card{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 2.8px 3.9px rgb(0 0 0 / 1%), 0 6.4px 6.3px rgb(0 0 0 / 1%), 0 11.4px 8.2px rgb(0 0 0 / 2%), 0 19px 10.6px rgb(0 0 0 / 3%), 0 37px 19px rgb(0 0 0 / 3%);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px;
+}
+
+.index-module--faq--1Nx6Q {
+    border-radius: 24px
+}
+
+.index-module--faq--1Nx6Q a {
+    color: #1db954
+}
+
+.index-module--faqMainTitle--3hTby {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 140%
+}
+
+.index-module--faqTitle--rrv6z {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 4vh 0 2vh;
+    text-decoration: underline
+}
+
+.index-module--faqText--OTwdN {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 3vh
+}
+
+.index-module--faqList--uLBUi {
+    list-style: none
+}
+
+.index-module--faqList--uLBUi li {
+    font-size: 16px;
+    line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+    .index-module--faq--1Nx6Q {
+        padding: 0
+    }
+
+    .index-module--faqMainTitle--3hTby {
+        font-size: 22px
+    }
+}
+
+.Footer-module--container--aH1G_ {
+    margin: auto;
+    max-width: 800px;
+    padding: 0 12px;
+    position: relative;
+    width: 100%;
+    z-index: 2
+}
+
+.Footer-module--error--3DW37 {
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: center;
+    white-space: pre-line
+}
+
+.Footer-module--contentText--2riY0 {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 3vh
+}
+
+.Footer-module--contentText--2riY0:last-child {
+    margin-bottom: 0
+}
+
+.Footer-module--contentTitle--3BRQq {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 10vh 0 3vh
+}
+
+@media screen and (max-width:768.98px) {
+    .Footer-module--contentTitle--3BRQq {
+        font-size: 22px;
+        margin: 6vh 0 3vh
+    }
+
+    .Footer-module--contentText--2riY0 {
+        font-size: 17px
+    }
+}
+
+.Footer-module--faq--3cnLl {
+    border-radius: 24px
+}
+
+.Footer-module--faq--3cnLl a {
+    color: #1db954
+}
+
+.Footer-module--faqMainTitle--3zL3X {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 140%
+}
+
+.Footer-module--faqTitle--2Vmc1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 4vh 0 2vh;
+    text-decoration: underline
+}
+
+.Footer-module--faqText--1QZcu {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 3vh
+}
+
+.Footer-module--faqList--lXk-_ {
+    list-style: none
+}
+
+.Footer-module--faqList--lXk-_ li {
+    font-size: 16px;
+    line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+    .Footer-module--faq--3cnLl {
+        padding: 0
+    }
+
+    .Footer-module--faqMainTitle--3zL3X {
+        font-size: 22px
+    }
+}
+
+.Footer-module--legalContent--3qAzH {
+    padding: 72px 0
+}
+
+.Footer-module--legalTitle--3GvRP {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 6vh;
+    margin-top: 10vh
+}
+
+.Footer-module--legalTitle--3GvRP:first-child {
+    margin-top: 0
+}
+
+.Footer-module--legalSectionTitle--iRBKc {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 8vh 0 4vh
+}
+
+.Footer-module--legalText--3x9_9 {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 3vh
+}
+
+.Footer-module--legalText--3x9_9 a {
+    color: #1db954
+}
+
+.Footer-module--legalList--219nU {
+    font-size: 16px;
+    line-height: 170%;
+    margin-bottom: 3vh
+}
+
+.Footer-module--footer--2xH3J {
+    background: #000;
+    color: #fff;
+    padding: 64px 0
+}
+
+.Footer-module--footer--2xH3J .Footer-module--container--aH1G_ {
+    align-content: flex-start;
+    display: grid;
+    gap: 0 64px;
+    grid-template-columns: 1fr auto auto
+}
+
+.Footer-module--logo--2r4jA {
+    align-items: center;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 48px auto;
+    margin-bottom: 24px;
+    text-decoration: none;
+    width: -webkit-max-content;
+    width: max-content
+}
+
+.Footer-module--logoText--lk9OK {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.Footer-module--disclaimer--2_pz6 {
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    line-height: 170%
+}
+
+.Footer-module--linksTitle--13aau {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-transform: uppercase
+}
+
+.Footer-module--links--3ksAM {
+    display: grid;
+    gap: 8px;
+    list-style: none
+}
+
+.Footer-module--links--3ksAM a {
+    color: #1db954;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.Footer-module--links--3ksAM a:hover {
+    text-decoration: underline
+}
+
+.Footer-module--copyright--3VmkU {
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    display: flex;
+    font-size: 14px;
+    gap: 4px;
+    grid-column: 1/4;
+    margin-top: 32px;
+    padding-top: 32px
+}
+
+.Footer-module--copyright--3VmkU a {
+    color: #fff;
+    opacity: .4;
+    text-decoration: none
+}
+
+.Footer-module--copyright--3VmkU a:hover {
+    text-decoration: underline
+}
+
+@media screen and (max-width:768.98px) {
+    .Footer-module--footer--2xH3J {
+        padding: 40px 0
+    }
+
+    .Footer-module--footer--2xH3J .Footer-module--container--aH1G_ {
+        gap: 0 16px;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .Footer-module--logoAndDisclaimer--33wyB {
+        grid-column: 1/3;
+        margin-bottom: 24px
+    }
+
+    .Footer-module--copyright--3VmkU {
+        grid-column: 1/3
+    }
+}
+
+.fs-6{
+    font-size: 14px!important;
+}
+
+.title{
+    font-size: 16px!important;
+}
+
+.terms-of-service-module--container--9YWVq {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 12px;
+  position: relative;
+  width: 100%;
+  z-index: 2
+}
+
+.terms-of-service-module--error--3WsUI {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 16px;
+  text-align: center;
+  white-space: pre-line
+}
+
+.terms-of-service-module--contentText--2bIzA {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--contentText--2bIzA:last-child {
+  margin-bottom: 0
+}
+
+.terms-of-service-module--contentTitle--2GkRF {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 10vh 0 3vh
+}
+
+@media screen and (max-width:768.98px) {
+  .terms-of-service-module--contentTitle--2GkRF {
+    font-size: 22px;
+    margin: 6vh 0 3vh
+  }
+
+  .terms-of-service-module--contentText--2bIzA {
+    font-size: 17px
+  }
+}
+
+.terms-of-service-module--faq--3nWyh {
+  border-radius: 24px
+}
+
+.terms-of-service-module--faq--3nWyh a {
+  color: #1db954
+}
+
+.terms-of-service-module--faqMainTitle--2UrUP {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%
+}
+
+.terms-of-service-module--faqTitle--3sDhg {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 4vh 0 2vh;
+  text-decoration: underline
+}
+
+.terms-of-service-module--faqText--Ze76i {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--faqList--8beww {
+  list-style: none
+}
+
+.terms-of-service-module--faqList--8beww li {
+  font-size: 16px;
+  line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+  .terms-of-service-module--faq--3nWyh {
+    padding: 0
+  }
+
+  .terms-of-service-module--faqMainTitle--2UrUP {
+    font-size: 22px
+  }
+}
+
+.terms-of-service-module--legalContent--3KYre {
+  padding: 72px 0
+}
+
+.terms-of-service-module--legalTitle--3LG7v {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 6vh;
+  margin-top: 10vh
+}
+
+.terms-of-service-module--legalTitle--3LG7v:first-child {
+  margin-top: 0
+}
+
+.terms-of-service-module--legalSectionTitle--6agL6 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 8vh 0 4vh
+}
+
+.terms-of-service-module--legalText--1z6aX {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--legalText--1z6aX a {
+  color: #1db954
+}
+
+.terms-of-service-module--legalList--3z7I- {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--container--9YWVq {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 12px;
+  position: relative;
+  width: 100%;
+  z-index: 2
+}
+
+.terms-of-service-module--error--3WsUI {
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 16px;
+  text-align: center;
+  white-space: pre-line
+}
+
+.terms-of-service-module--contentText--2bIzA {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--contentText--2bIzA:last-child {
+  margin-bottom: 0
+}
+
+.terms-of-service-module--contentTitle--2GkRF {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 10vh 0 3vh
+}
+
+@media screen and (max-width:768.98px) {
+  .terms-of-service-module--contentTitle--2GkRF {
+    font-size: 22px;
+    margin: 6vh 0 3vh
+  }
+
+  .terms-of-service-module--contentText--2bIzA {
+    font-size: 17px
+  }
+}
+
+.terms-of-service-module--faq--3nWyh {
+  border-radius: 24px
+}
+
+.terms-of-service-module--faq--3nWyh a {
+  color: #1db954
+}
+
+.terms-of-service-module--faqMainTitle--2UrUP {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%
+}
+
+.terms-of-service-module--faqTitle--3sDhg {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 4vh 0 2vh;
+  text-decoration: underline
+}
+
+.terms-of-service-module--faqText--Ze76i {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--faqList--8beww {
+  list-style: none
+}
+
+.terms-of-service-module--faqList--8beww li {
+  font-size: 16px;
+  line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+  .terms-of-service-module--faq--3nWyh {
+    padding: 0
+  }
+
+  .terms-of-service-module--faqMainTitle--2UrUP {
+    font-size: 22px
+  }
+}
+
+.terms-of-service-module--legalContent--3KYre {
+  padding: 72px 0
+}
+
+.terms-of-service-module--legalTitle--3LG7v {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 6vh;
+  margin-top: 10vh
+}
+
+.terms-of-service-module--legalTitle--3LG7v:first-child {
+  margin-top: 0
+}
+
+.terms-of-service-module--legalSectionTitle--6agL6 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 8vh 0 4vh
+}
+
+.terms-of-service-module--legalText--1z6aX {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.terms-of-service-module--legalText--1z6aX a {
+  color: #1db954
+}
+
+.terms-of-service-module--legalList--3z7I- {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.playlist-downloader-module--faq--2FN4m {
+  border-radius: 24px
+}
+
+.playlist-downloader-module--faq--2FN4m a {
+  color: #1db954
+}
+
+.playlist-downloader-module--faqMainTitle--1N6ry {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%
+}
+
+.playlist-downloader-module--faqTitle--1njah {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 4vh 0 2vh;
+  text-decoration: underline
+}
+
+.playlist-downloader-module--faqText--2_TcT {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.playlist-downloader-module--faqList--2JPCT {
+  list-style: none
+}
+
+.playlist-downloader-module--faqList--2JPCT li {
+  font-size: 16px;
+  line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+  .playlist-downloader-module--faq--2FN4m {
+    padding: 0
+  }
+
+  .playlist-downloader-module--faqMainTitle--1N6ry {
+    font-size: 22px
+  }
+}
+
+.playlist-downloader-module--legalContent--meFPP {
+  padding: 72px 0
+}
+
+.playlist-downloader-module--legalTitle--1thR0 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 6vh;
+  margin-top: 10vh
+}
+
+.playlist-downloader-module--legalTitle--1thR0:first-child {
+  margin-top: 0
+}
+
+.playlist-downloader-module--legalSectionTitle--3RIcm {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 8vh 0 4vh
+}
+
+.playlist-downloader-module--legalText--B-vAB {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.playlist-downloader-module--legalText--B-vAB a {
+  color: #1db954
+}
+
+.playlist-downloader-module--legalList--3lX2A {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.playlist-downloader-module--section--1MaQ7 {
+  padding: 72px 0
+}
+
+.playlist-downloader-module--section--1MaQ7.playlist-downloader-module--section___white--1jmN0 {
+  background: #fff
+}
+
+.playlist-downloader-module--title--3A3VZ {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 170%;
+  text-align: center
+}
+
+.playlist-downloader-module--subtitle--20Bd5 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 32px;
+  text-align: center
+}
+
+.playlist-downloader-module--box--3OZ9A {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2.8px 3.9px rgba(0, 0, 0, .008), 0 6.4px 6.3px rgba(0, 0, 0, .014), 0 11.4px 8.2px rgba(0, 0, 0, .02), 0 19px 10.6px rgba(0, 0, 0, .025), 0 37px 19px rgba(0, 0, 0, .03);
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 24px;
+  width: 100%
+}
+
+.playlist-downloader-module--form--2JXHS {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin: 0 auto
+}
+
+.playlist-downloader-module--form--2JXHS input {
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  display: block;
+  font-size: 16px;
+  height: 48px;
+  padding: 0 16px
+}
+
+.playlist-downloader-module--form--2JXHS input:focus {
+  border-color: #000;
+  outline: none
+}
+
+.playlist-downloader-module--form--2JXHS button {
+  background: #1db954;
+  border: 1px solid #1db954;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 40px
+}
+
+.playlist-downloader-module--adsTop--1yjiF {
+  margin-bottom: 16px
+}
+
+.playlist-downloader-module--adsBottom--1zSek {
+  margin-top: 16px
+}
+
+@media screen and (max-width:768.98px) {
+  .playlist-downloader-module--section--1MaQ7 {
+    padding: 56px 0
+  }
+
+  .playlist-downloader-module--title--3A3VZ {
+    font-size: 24px
+  }
+
+  .playlist-downloader-module--subtitle--20Bd5 {
+    font-size: 18px
+  }
+
+  .playlist-downloader-module--box--3OZ9A {
+    padding: 16px
+  }
+
+  .playlist-downloader-module--adsTop--1yjiF {
+    margin-bottom: 12px
+  }
+
+  .playlist-downloader-module--adsBottom--1zSek {
+    margin-top: 12px
+  }
+
+  .playlist-downloader-module--form--2JXHS {
+    grid-template-columns: minmax(0, 1fr)
+  }
+}
+
+.playlist-downloader-module--playlist--2U80e {
+  margin-top: 16px;
+  overflow: auto;
+  position: relative
+}
+
+.playlist-downloader-module--playlistHeader--PZ503 {
+  align-items: center;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  height: 48px;
+  width: 100%
+}
+
+.playlist-downloader-module--playlistTitle--306cK {
+  font-weight: 500
+}
+
+.playlist-downloader-module--playlistCountDownload--3DtPt {
+  font-weight: 600
+}
+
+.playlist-downloader-module--playlistCountDownload--3DtPt span {
+  color: #1db954
+}
+
+.playlist-downloader-module--tracks--16fUp {
+  height: 192px;
+  overflow: auto
+}
+
+.playlist-downloader-module--track--3ZJkP {
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  display: grid;
+  gap: 0 16px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  height: 64px
+}
+
+.playlist-downloader-module--track--3ZJkP:last-child {
+  border: 0
+}
+
+.playlist-downloader-module--trackImage--3zKH5 {
+  grid-column: 1;
+  grid-row: 1/3;
+  height: 48px;
+  width: 48px
+}
+
+.playlist-downloader-module--trackTitle--10DHI {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.playlist-downloader-module--trackDuration--2xfgb {
+  align-self: flex-start;
+  color: #bdc3c7;
+  font-size: 13px
+}
+
+.playlist-downloader-module--trackStatus--1NaNB {
+  grid-column: 3;
+  grid-row: 1/3;
+  text-align: right
+}
+
+.playlist-downloader-module--trackStatus--1NaNB span {
+  font-size: 13px;
+  font-weight: 500
+}
+
+.playlist-downloader-module--trackStatus--1NaNB span.playlist-downloader-module--waiting--3hPLi {
+  opacity: .4
+}
+
+.playlist-downloader-module--trackStatus--1NaNB span.playlist-downloader-module--downloaded--1JJlN {
+  color: #44bd32
+}
+
+.playlist-downloader-module--trackStatus--1NaNB span.playlist-downloader-module--downloading--20tHQ {
+  align-items: center;
+  color: #1db954;
+  display: grid;
+  gap: 4px;
+  grid-auto-flow: column
+}
+
+.playlist-downloader-module--trackStatus--1NaNB span.playlist-downloader-module--error--Q5wPd {
+  color: red
+}
+
+.playlist-downloader-module--trackDownloadMobile--EXjWx {
+  align-items: center;
+  background: #1db954;
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  grid-column: 3;
+  grid-row: 1/3;
+  height: 28px;
+  justify-content: center;
+  padding: 0 10px
+}
+
+.playlist-downloader-module--downloadButton--3C6UH,
+.playlist-downloader-module--downloadButtonCompleted--mcba9 {
+  background: #1db954;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 48px;
+  margin-top: 8px;
+  padding: 0 40px;
+  text-align: center;
+  width: 100%
+}
+
+.playlist-downloader-module--downloadButtonCompleted--mcba9 {
+  background: #44bd32
+}
+
+.playlist-downloader-module--unavailable--2Y7ru {
+  color: #aaa;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center
+}
+
+@media screen and (max-width:768.98px) {
+  .playlist-downloader-module--playlistCountDownload--3DtPt {
+    display: none
+  }
+
+  .playlist-downloader-module--playlistHeader--PZ503 {
+    grid-template-columns: minmax(0, 1fr)
+  }
+
+  .playlist-downloader-module--trackTitle--10DHI {
+    font-size: 13px;
+    margin-bottom: 4px
+  }
+
+  .playlist-downloader-module--trackDuration--2xfgb {
+    font-size: 12px
+  }
+
+  .playlist-downloader-module--trackStatus--1NaNB {
+    display: none
+  }
+
+  .playlist-downloader-module--trackDownloadMobile--EXjWx {
+    display: grid
+  }
+
+  .playlist-downloader-module--downloadButton--3C6UH,
+  .playlist-downloader-module--downloadButtonCompleted--mcba9 {
+    display: none
+  }
+}
+.album-downloader-module--faq--20R46 {
+  border-radius: 24px
+}
+
+.album-downloader-module--faq--20R46 a {
+  color: #1db954
+}
+
+.album-downloader-module--faqMainTitle--3lheL {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%
+}
+
+.album-downloader-module--faqTitle--33p0I {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 4vh 0 2vh;
+  text-decoration: underline
+}
+
+.album-downloader-module--faqText--2YXaT {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.album-downloader-module--faqList--33vbC {
+  list-style: none
+}
+
+.album-downloader-module--faqList--33vbC li {
+  font-size: 16px;
+  line-height: 170%
+}
+
+@media screen and (max-width:768.98px) {
+  .album-downloader-module--faq--20R46 {
+    padding: 0
+  }
+
+  .album-downloader-module--faqMainTitle--3lheL {
+    font-size: 22px
+  }
+}
+
+.album-downloader-module--legalContent--n42UW {
+  padding: 72px 0
+}
+
+.album-downloader-module--legalTitle--3449w {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 6vh;
+  margin-top: 10vh
+}
+
+.album-downloader-module--legalTitle--3449w:first-child {
+  margin-top: 0
+}
+
+.album-downloader-module--legalSectionTitle--6Hx_3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 8vh 0 4vh
+}
+
+.album-downloader-module--legalText--3Km9i {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.album-downloader-module--legalText--3Km9i a {
+  color: #1db954
+}
+
+.album-downloader-module--legalList--2Smuu {
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 3vh
+}
+
+.album-downloader-module--section--2nN2L {
+  padding: 72px 0
+}
+
+.album-downloader-module--section--2nN2L.album-downloader-module--section___white--1peHE {
+  background: #fff
+}
+
+.album-downloader-module--title--1G8FA {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 170%;
+  text-align: center
+}
+
+.album-downloader-module--subtitle--2cvwH {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 32px;
+  text-align: center
+}
+
+.album-downloader-module--box--1RhgB {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2.8px 3.9px rgba(0, 0, 0, .008), 0 6.4px 6.3px rgba(0, 0, 0, .014), 0 11.4px 8.2px rgba(0, 0, 0, .02), 0 19px 10.6px rgba(0, 0, 0, .025), 0 37px 19px rgba(0, 0, 0, .03);
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 24px;
+  width: 100%
+}
+
+.album-downloader-module--form--2dj8D {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin: 0 auto
+}
+
+.album-downloader-module--form--2dj8D input {
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  display: block;
+  font-size: 16px;
+  height: 48px;
+  padding: 0 16px
+}
+
+.album-downloader-module--form--2dj8D input:focus {
+  border-color: #000;
+  outline: none
+}
+
+.album-downloader-module--form--2dj8D button {
+  background: #1db954;
+  border: 1px solid #1db954;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 40px
+}
+
+.album-downloader-module--adsTop--1SVem {
+  margin-bottom: 16px
+}
+
+.album-downloader-module--adsBottom--38J85 {
+  margin-top: 16px
+}
+
+@media screen and (max-width:768.98px) {
+  .album-downloader-module--section--2nN2L {
+    padding: 56px 0
+  }
+
+  .album-downloader-module--title--1G8FA {
+    font-size: 24px
+  }
+
+  .album-downloader-module--subtitle--2cvwH {
+    font-size: 18px
+  }
+
+  .album-downloader-module--box--1RhgB {
+    padding: 16px
+  }
+
+  .album-downloader-module--adsTop--1SVem {
+    margin-bottom: 12px
+  }
+
+  .album-downloader-module--adsBottom--38J85 {
+    margin-top: 12px
+  }
+
+  .album-downloader-module--form--2dj8D {
+    grid-template-columns: minmax(0, 1fr)
+  }
+}
+
+.album-downloader-module--album--1uUFu {
+  margin-top: 16px;
+  overflow: auto;
+  position: relative
+}
+
+.album-downloader-module--albumHeader--2LLS8 {
+  align-items: center;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  height: 48px;
+  width: 100%
+}
+
+.album-downloader-module--albumTitle--1ylyr {
+  font-weight: 500
+}
+
+.album-downloader-module--albumCountDownload--1Zo0R {
+  font-weight: 600
+}
+
+.album-downloader-module--albumCountDownload--1Zo0R span {
+  color: #1db954
+}
+
+.album-downloader-module--tracks--NlPj2 {
+  height: 192px;
+  overflow: auto
+}
+
+.album-downloader-module--track--3G3Pt {
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  display: grid;
+  gap: 0 16px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  height: 64px
+}
+
+.album-downloader-module--track--3G3Pt:last-child {
+  border: 0
+}
+
+.album-downloader-module--trackImage--1K3XS {
+  grid-column: 1;
+  grid-row: 1/3;
+  height: 48px;
+  width: 48px
+}
+
+.album-downloader-module--trackTitle--B8Fku {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.album-downloader-module--trackDuration--rOiF9 {
+  align-self: flex-start;
+  color: #bdc3c7;
+  font-size: 13px
+}
+
+.album-downloader-module--trackStatus--1C-b8 {
+  grid-column: 3;
+  grid-row: 1/3;
+  text-align: right
+}
+
+.album-downloader-module--trackStatus--1C-b8 span {
+  font-size: 13px;
+  font-weight: 500
+}
+
+.album-downloader-module--trackStatus--1C-b8 span.album-downloader-module--waiting--1hTBG {
+  opacity: .4
+}
+
+.album-downloader-module--trackStatus--1C-b8 span.album-downloader-module--downloaded--1ldvd {
+  color: #44bd32
+}
+
+.album-downloader-module--trackStatus--1C-b8 span.album-downloader-module--downloading--dKtfL {
+  align-items: center;
+  color: #1db954;
+  display: grid;
+  gap: 4px;
+  grid-auto-flow: column
+}
+
+.album-downloader-module--trackStatus--1C-b8 span.album-downloader-module--error--3OZCu {
+  color: red
+}
+
+.album-downloader-module--trackDownloadMobile--2jAu- {
+  align-items: center;
+  background: #1db954;
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  grid-column: 3;
+  grid-row: 1/3;
+  height: 28px;
+  justify-content: center;
+  padding: 0 10px
+}
+
+.album-downloader-module--downloadButton--1R5OU,
+.album-downloader-module--downloadButtonCompleted--2dCQb {
+  background: #1db954;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 48px;
+  margin-top: 8px;
+  padding: 0 40px;
+  text-align: center;
+  width: 100%
+}
+
+.album-downloader-module--downloadButtonCompleted--2dCQb {
+  background: #44bd32
+}
+
+.album-downloader-module--unavailable--1QIWN {
+  color: #aaa;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center
+}
+
+@media screen and (max-width:768.98px) {
+  .album-downloader-module--albumCountDownload--1Zo0R {
+    display: none
+  }
+
+  .album-downloader-module--albumHeader--2LLS8 {
+    grid-template-columns: minmax(0, 1fr)
+  }
+
+  .album-downloader-module--trackTitle--B8Fku {
+    font-size: 13px;
+    margin-bottom: 4px
+  }
+
+  .album-downloader-module--trackDuration--rOiF9 {
+    font-size: 12px
+  }
+
+  .album-downloader-module--trackStatus--1C-b8 {
+    display: none
+  }
+
+  .album-downloader-module--trackDownloadMobile--2jAu- {
+    display: grid
+  }
+
+  .album-downloader-module--downloadButton--1R5OU,
+  .album-downloader-module--downloadButtonCompleted--2dCQb {
+    display: none
+  }
+}

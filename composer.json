@@ -1,0 +1,10 @@
+{
+    "require": {
+        "jwilsson/spotify-web-api-php": "^5.5",
+        "vlucas/phpdotenv": "^5.5",
+        "norkunas/youtube-dl-php": "dev-master",
+        "madcoda/php-youtube-api": "1.2",
+      "ext-json": "*",
+      "ext-curl": "*"
+    }
+}
