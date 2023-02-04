@@ -27,11 +27,11 @@
                     <a class="nav-link active" aria-current="page" href="/">Spotify</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./playlist-downloader">Spotify Playlist</a>
+                    <a class="nav-link" href="./playlist.php">Spotify Playlist</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./album-downloader">Spotify Album</a>
+                    <a class="nav-link" href="./album.php">Spotify Album</a>
                 </li>
             </ul>
             <div class="d-grid gap-2">

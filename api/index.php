@@ -16,7 +16,7 @@ $youtube = new Youtube(['key'=>$_ENV['YOUTUBE_KEY']]);
 
 
 $yt = new YoutubeDl();
-$yt->setBinPath('C:\Users\User\Downloads\yt-dlp');
+$yt->setBinPath('yt-dlp');
 $accessToken ='';
 
 if (isset($_ENV['ACCESS_TOKEN'])&&!empty($_ENV['ACCESS_TOKEN'])){
@@ -28,12 +28,35 @@ if (isset($_ENV['ACCESS_TOKEN'])&&!empty($_ENV['ACCESS_TOKEN'])){
     $_ENV['ACCESS_TOKEN']=$accessToken;
 }
 
-
+///track
 if (isset($_GET['track'])){
     try {
         $track=$_GET['track'];
         $track = $api->getTrack($track);
         echo json_encode($track);
+    } catch (SpotifyWebAPI\SpotifyWebAPIException $e) {
+        http_response_code(500);
+        echo 'Spotify API Error: ' . $e->getMessage(); // Will be 404
+    }
+}
+//playlist
+if (isset($_GET['playlist'])){
+    try {
+        $playlist=$_GET['playlist'];
+        $playlist = $api->getPlaylist($playlist);
+        echo json_encode($playlist);
+    } catch (SpotifyWebAPI\SpotifyWebAPIException $e) {
+        http_response_code(500);
+        echo 'Spotify API Error: ' . $e->getMessage(); // Will be 404
+    }
+}
+
+////album
+if (isset($_GET['album'])){
+    try {
+        $album=$_GET['album'];
+        $album = $api->getAlbum($album);
+        echo json_encode($album);
     } catch (SpotifyWebAPI\SpotifyWebAPIException $e) {
         http_response_code(500);
         echo 'Spotify API Error: ' . $e->getMessage(); // Will be 404

@@ -99,100 +99,11 @@ function downloadTrack() {
   const match = url.match(regEx)
   if (match) {
     window.location.href='./api?download=track&uri=' + url + '&title=' + title + '&src=' + src + '&artist=' + artist
-    /*
-    $.ajax({
-      type: 'get',
-      url: './api?download=track&uri=' + url + '&title=' + title + '&src=' + src + '&artist=' + artist,
-      headers: {
-        id: localStorage.getItem('id'),
-      },
-      data: {
-        _csrf: $('input[name="_csrf"]').val(),
-      },
-      beforeSend: function () {
-        $('.error').hide()
-        button.attr('disabled', true).html('Downloading')
-      },
-      success: function (data) {
-        if (data.redirect) {
-          button.attr('disabled', false).html('Download')
-
-          window.open('./download_song?title=' + title, '_blank')
-        }
-      },
-      error: function () {
-        $('.error').show()
-        button.attr('disabled', false).html('Download')
-      },
-    })
-
-     */
   }
 
 }
 
 $(document).on('click', '#download', downloadTrack)
-socket.on('connect', () => {
-  colorLog('connected', 'success')
-  localStorage.setItem('id', socket.id)
-})
-
-socket.on('song:downloaded', (data) => {
-  if (data && data.type) {
-    let button = $('#download-playlist')
-    button.attr('disabled', false).html('Download')
-
-    window.location.href = './download_playlist?title=' + data.path
-
-    //hide progress bar
-    $('.song-progress').hide()
-    return
-  }
-  if (data) {
-    let button = $('#download-album')
-    button.attr('disabled', false).html('Download')
-
-    window.location.href = './download_album?title=' + data.path
-
-    //hide progress bar
-    $('.song-progress').hide()
-    return
-  }
-  let button = $('#download')
-  let title = $('#download').attr('data-title')
-  let url = $('form').find('input[type="url"]').val()
-  button.attr('disabled', false).html('Download')
-
-  window.location.href = './download_song?title=' + title
-
-  //hide progress bar
-  $('.song-progress').hide()
-  colorLog('connected', 'success')
-})
-
-socket.on('song:progress', (data) => {
-  if (data.tracks) {
-    $('.song-progress')
-      .html(
-        `
-<div>
-${data.tracks} downloaded
-</div>
-<div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: ${data.percent}%">${data.percent}%</div>
-        </div>`
-      )
-      .show()
-    return
-  }
-  $('.song-progress')
-    .html(
-      `<div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: ${data.percent}%">${data.percent}%</div>
-        </div>`
-    )
-    .show()
-})
 
 /*
 ---------------
@@ -216,15 +127,8 @@ $('form[name="album-downloader"]').submit(function (e) {
   if (match) {
     $.ajax({
       type: 'post',
-      url: './album-search',
-      headers: {
-        id: localStorage.getItem('id'),
-      },
-      data: {
-        type: 'album-downloader',
-        url: match[2],
-        _csrf: $('input[name="_csrf"]').val(),
-      },
+      url: `./api?album=${match[2]}`,
+      dataType:'json',
       beforeSend: function () {
         $('.error').hide()
         button.attr('disabled', true).html('searching')
@@ -333,15 +237,8 @@ $('form[name="playlist-downloader"]').submit(function (e) {
   if (match) {
     $.ajax({
       type: 'post',
-      url: './playlist-search',
-      headers: {
-        id: localStorage.getItem('id'),
-      },
-      data: {
-        type: 'playlist-downloader',
-        url: match[2],
-        _csrf: $('input[name="_csrf"]').val(),
-      },
+      url: `./api?playlist=${match[2]}`,
+      dataType:'json',
       beforeSend: function () {
         $('.error').hide()
         button.attr('disabled', true).html('searching')
@@ -385,7 +282,9 @@ $('form[name="playlist-downloader"]').submit(function (e) {
   }
 })
 
+/*---------------------
 //download playlist
+--------------------- */
 function downloadPlaylist() {
   let button = $('#download-playlist')
   let title = $('#download-playlist').attr('data-title')
